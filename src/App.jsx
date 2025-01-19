@@ -22,6 +22,7 @@ import Marketing from './components/ui/Mark';
 import MediaAndDesign from './components/ui/Media';
 import Management from './components/ui/Man';
 import SocialOutreach from './components/ui/Outreach';
+import Technical from './components/ui/Tech';
 
 function App() {
   const path = window.location.pathname;
@@ -29,6 +30,10 @@ function App() {
   if (path === '/It-and-Auto') {
     return <Automation/>;
   }
+  if (path === '/tech') {
+    return <Technical/>;
+  }
+  
   if (path === '/hr') {
     return <HumanResources/>;
   } if (path === '/enp') {

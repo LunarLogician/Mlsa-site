@@ -5,7 +5,10 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@': '/src',  // Ensure this is pointing to your 'src' directory
+      '@': '/src',  // Ensures the '@' alias points to your 'src' directory.
     },
+  },
+  server: {
+    historyApiFallback: true, // Helps handle client-side routing in a single-page app
   },
 });

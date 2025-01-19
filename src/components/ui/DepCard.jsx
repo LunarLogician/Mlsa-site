@@ -58,12 +58,23 @@ const DepartmentCard = () => {
       description: ".",
       icon: <Settings className="h-8 w-8 text-gray-500" />,
       handleClick: () => handleoutreach(),
+    },{
+      name: "Technical ",
+      description: "Manages Technical aspects of the organization.",
+      icon: <Settings className="h-8 w-8 text-gray-500" />,
+      handleClick: () => handletech(),
     },
   ];
 
   // Functions for each button click
   const handleITAndAutomation = () => {
     window.location.href = '/It-and-Auto';
+
+    // Add your logic here
+  }; 
+  
+  const handletech = () => {
+    window.location.href = '/tech';
 
     // Add your logic here
   };
