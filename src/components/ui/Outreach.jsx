@@ -20,6 +20,7 @@ const SocialOutreach = () => {
   ];
 
   return (
+    
     <div className="min-h-screen bg-white text-white">
       {/* Header Section */}
       <header className="py-6 bg-gradient-to-r from-teal-600 via-teal-500 to-teal-400 text-center shadow-md">
